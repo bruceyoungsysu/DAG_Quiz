@@ -91,3 +91,4 @@ The expected output would be:
 
 There are different ways to solve this problem and address it in more or less generative ways. The main idea when I was implementing it is to keep the implementation easier to read. There are some tricks such as using a list of ids that nodes can repeat instead of a hashmap to store the timestamp that could reduce the complexity. But I'm still keeping it as it can be easily extended if we request to order the nodes not only by topological order but also consider their processing time.
 
+Also please upgrade your Java version if there is any issue compiling lambda functions.
